@@ -1,0 +1,107 @@
+body { 
+    font-family: Helvetica, sans-serif; 
+
+}
+
+header {
+    border-bottom: 1px solid #CCC;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+#contato li  {
+    display: inline-block;
+    margin: 1em;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.identificacao {
+    background-color: #579FF0;
+    color: #FCFCFD;
+    padding: 7em 2em;
+}
+
+.identificacao h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identificacao h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+
+}
+
+section h3 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+}
+
+.escuras { 
+    background-color: #2B313E;
+    color: #FCFCFD;
+}
+
+.claras { 
+    background-color: #FCFCFD;
+    color: #2B313E;
+}
+
+.styleprojetos li {
+    background-color: #6F768B;
+    padding: 1em;
+    margin-bottom: 2em;
+  
+}
+
+.styleprojetos li a {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.styleprojetos li p {
+    color: #fff;
+    margin-top: 0.5em;
+
+}
+
+#sobe p.text {
+    margin: 1em;
+}
+
+
+#sobre p.bio {
+    color: #579ff8;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+#sobre img {
+    width: 200px;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
