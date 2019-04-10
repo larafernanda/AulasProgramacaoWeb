@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body { 
+    font-family: Helvetica, sans-serif; 
+    background-image: url("../Imagens/anime-wallpapers-and-backgrounds-6.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    
+ 
+  
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+}
+
+header {
+    border-bottom: 1px solid #CCC;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+
+header ul {
+    text-align: center;
+}
+
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+#contato li  {
+    display: inline-block;
+    
+}
+
+#contato li a {
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email {
+    background-image: url("../imagens/email.png");
+}
+
+#contato .face{
+    background-image: url("../imagens/fb.png");
+}
+
+#contato .twitter {
+    background-image: url("../imagens/twitter.png");
+}
+
+#contato .github {
+    background-image: url("../imagens/github.png");
+}
+
+#contato .linkedin {
+    background-image: url("../imagens/linkedin.png");
+}
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: left;
+}
+
+.identificacao {
+    
+    color:black;
+    padding: 10em 2em 7em;
+    text-align: left;
+}
+
+.identificacao h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identificacao h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+section h3 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+}
+
+.escuras { 
+    color: #FCFCFD;
+    background:rgba(255,255,255,0.5);   
+ 
+}
+
+.claras { 
+    color: #2B313E;
+}
+
+.projetos-header{ 
+    float: left;
+    width: 30%;
+}
+
+.projetos-header h3 {
+    margin-top: 1em;
+}
+
+.styleprojetos {
+    margin-left: 40%;
+}
+
+
+.styleprojetos li {
+    
+    background:rgba(255,255,255,0.5);
+    padding: 1em;
+    margin-bottom: 2em;
+  
+}
+
+.styleprojetos li a {
+    color: black;
+    font-size: 1.3em;
+    
+}
+
+.styleprojetos li p {
+    color: black;
+    margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
+
+}
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+    color: black;
+}
+
+
+#sobre p.bio {
+    color: black;
+    font-size: 1.5em;
+    margin: 1em;
+    width: 50%;
+}
+
+#sobre {
+    position: relative;
+}
+
+#sobre img {
+    width: 7.5em;
+    position: absolute;
+    top: 0.5em;
+    right: 10%;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
