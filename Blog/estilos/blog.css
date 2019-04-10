@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body { 
+    font-family: Helvetica, arial; 
+}
+
+a {
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+
+header ul {
+    text-align: right;
+    font-family: garamond;
+}
+
+
+header li a {
+    color: #99A0B0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+#contato li  {
+    display: inline-block;
+    
+}
+
+#contato li a {
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email {
+    background-image: url("../imagens/email.png");
+}
+
+#contato .face {
+    background-image: url("../imagens/face.png");
+}
+
+#contato .twitter {
+    background-image: url("../imagens/twitter.png");
+}
+
+#contato .github {
+    background-image: url("../imagens/github.png");
+}
+
+#contato .linkedin {
+    background-image: url("../imagens/linkedin.png");
+}
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.identificacao {
+    background-color: brown;
+    color: black;
+    padding: 10em 2em 7em;
+    font-family: georgia;
+}
+
+.identificacao h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identificacao h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+
+}
+
+section h3 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    font-family: garamond;
+   
+}
+
+header li a {
+    color: black;
+    font-weight: lighter;
+}
+
+.escuras { 
+    background-color: brown;
+    color: #FCFCFD;
+}
+
+.claras { 
+    background-color: white;
+    color: #2B313E;
+}
+
+.projetos-header {
+    float: left;
+    width: 30%;
+}
+
+.projetos-header h3 {
+    margin-top: 1em;
+}
+
+.styleprojetos {
+    margin-left: 40%;
+    font-family: tahoma;
+    
+
+}
+
+
+.styleprojetos li {
+    background-color: brown;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+  
+}
+
+.styleprojetos li a {
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+.styleprojetos li p {
+    color: white;
+    margin-top: 0.5em;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: center;
+    line-height: 1.4;
+    color: black;
+    font-family: georgia;
+}
+
+
+#sobre p.bio {
+    color: black;
+    font-size: 1.5em;
+    margin: 1em;
+    width: 50%;
+    font-family: georgia;
+}
+
+#sobre {
+    position: relative;
+}
+
+#sobre img {
+    width: 200px;
+    position: absolute;
+    top: 2.5em;
+    right: 10%;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: times;
+    
+}
