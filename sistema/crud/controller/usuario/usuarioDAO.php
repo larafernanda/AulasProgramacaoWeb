@@ -13,7 +13,20 @@ if(isset($_POST['salvar'])) {
 
     $conexao->query("INSERT INTO
         usuario(usuario,senha) 
-        VALUES ('$usuario', '$senha')") or die($conexao->error);
+        VALUES ('$usuario', '$senha')") 
+        or die($conexao->error);
+
+        header("Location: usuario.php");
+
+}
+
+if(isset($_GET['excluir'])) { 
+    $id = $_GET['excluir'];
+
+    
+
+    $conexao->query("DELETE FROM usuario WHERE id=$id") 
+        or die($conexao->error);
 
         header("Location: usuario.php");
 
