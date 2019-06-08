@@ -10,24 +10,32 @@
 <body>
     <?php
         require_once '../../view/nav.php';
+        require_once 'usuarioDAO.php';
+
     ?>
 
 <div class="container">
 <div class="row justify-content-center bg-light">
         <form action="usuarioDAO.php" method="POST">
+        <input type="hidden" name="id" value="<?php echo $id ?>"> 
+
         <div class="form-group">
         <label> Usuário </label>
-        <input type="text" class="form-control" name="usuario" id="usuario">
+        <input type="text" class="form-control" value="<?php echo $usuario ?>" name="usuario" id="usuario">
         </div>
 
         <div class="form-group">
         <label> Senha </label>
-        <input type="password" class="form-control" name="senha" id="senha">
+        <input type="password" class="form-control" value="<?php echo $senha ?>" name="senha" id="senha">
     </div>
 
     <div class="form-group">
+    <?php if($id != 0)  :?>
+        <button type="submit" class="btn btn-info" name="atualizar"> Atualizar </button>
+    <?php else : ?>
         <button type="submit" class="btn btn-primary" name="salvar"> Salvar </button>
-        </div>
+    <?php endif; ?>
+    </div>
     </form>
     </div>
 
@@ -47,7 +55,6 @@
                     <th> Senha </th>
                     <th colspan="2"> Ações </th>
                 </tr>
-
             </thead>
             <?php
             while($row = $resultado->fetch_assoc()) : ?>
@@ -56,16 +63,12 @@
                     <td>  <?php echo $row['usuario']; ?></td>
                     <td>  <?php echo $row['senha']; ?> </td>
                     <td>
-                        <a href="#" class="btn btn-info"> Editar </a>
+                        <a href="usuario.php?editar=<?php echo $row['id']; ?> " class="btn btn-info"> Editar </a>
                         <a href="usuarioDAO.php?excluir=<?php echo $row['id']; ?> " class="btn btn-danger"> Excluir </a>
                     </td>
-                
-                
-                
-                
                 </tr>
 
-<?php endwhile; ?>
+            <?php endwhile; ?>
 
         </table>
 
