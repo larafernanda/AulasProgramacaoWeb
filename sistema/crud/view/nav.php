@@ -20,7 +20,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sair</a>
+                    <a class="nav-link" href="/sistema/crud/controller/autenticar/sair.php">Sair</a>
                 </li>
             </ul>
         </div>

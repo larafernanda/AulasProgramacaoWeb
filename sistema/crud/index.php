@@ -11,7 +11,7 @@
     <div class="container">
 
     <div class="row justify-content-center bg-light">
-        <form action="" method="POST">
+        <form action="controller/autenticar/autenticar.php" method="POST">
         <div class="form-group">
         <label> Usuário </label>
         <input type="text" class="form-control" name="usuario" id="usuario">
@@ -33,3 +33,5 @@
 </body>
 
 </html>
+
+
