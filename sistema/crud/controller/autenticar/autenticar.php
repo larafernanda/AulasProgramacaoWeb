@@ -13,7 +13,7 @@ if(isset($_POST['autenticar'])) {
     usuario='$usuario' AND senha='$senha'")
     or die ($conexao->error());
 
-    if(nysqli_num_rows($resultado) > 0) {
+    if(mysqli_num_rows($resultado) > 0) {
         $row = $resultado->fetch_array();
         $_SESSION['usuario'] = $row['usuario'];
 
